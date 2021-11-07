@@ -140,10 +140,10 @@ export default function Footer() {
 							{t("getInTouch")}
 						</Grid>
 						<Grid item className={classes.footerMenuItem} style={{ marginTop: 0 }}>
-							1800 983 338
+							01794642873
 						</Grid>
 						<Grid item className={classes.footerMenuEmail}>
-							contactus@shinesolutions.com
+							info@digi2world.de
 						</Grid>
 						<Grid item className={classes.footerMenuCity}>
 							{t("city")}
@@ -164,12 +164,16 @@ export default function Footer() {
 							{t("connectWithUS")}
 						</Grid>
 						<Grid container>
-							<Grid item className={classes.contactUSIconLinkedin}>
-								in
+							    <Link href="https://www.linkedin.com/in/shahrbano-ghanavati-0aa119163/">
+								<a style={{textDecoration:"none"}}> 
+								<Grid item className={classes.contactUSIconLinkedin}>
+									in 
+								</Grid>
+								</a>
+								</Link>
+								{/* <TwitterIcon className={classes.contactUSIcon} />
+								<GitHubIcon className={classes.contactUSIcon} /> */}
 							</Grid>
-							<TwitterIcon className={classes.contactUSIcon} />
-							<GitHubIcon className={classes.contactUSIcon} />
-						</Grid>
 					</Grid>
 				</Grid>
 			</Hidden>
